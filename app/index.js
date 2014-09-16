@@ -56,7 +56,7 @@ var util = require('util'),
             // We are going to move every file into the root folder
 
             this.template('_README.md'    , 'README.md');
-            this.template('_bower.js'     , 'bower.js');
+            this.template('_bower.json'   , 'bower.json');
             this.template('_gruntfile.js' , 'gruntfile.js');
             this.template('_linkfb.js'    , 'linkfb.js');
             this.template('_package.json' , 'package.json');
