@@ -4,7 +4,6 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Stories in Ready](https://badge.waffle.io/timbergus/generator-linkfb.svg?label=ready&title=Ready)](http://waffle.io/timbergus/generator-linkfb)
 [![Dependency Status](https://david-dm.org/timbergus/generator-linkfb.svg)](https://david-dm.org/timbergus/generator-linkfb)
-[![devDependency Status](https://david-dm.org/timbergus/generator-linkfb/dev-status.svg)](https://david-dm.org/timbergus/generator-linkfb#info=devDependencies)
 
 > Generator for [Yeoman](http://yeoman.io) for Angular.js to create a module to configure an interfaz for the client with an API REST
 
