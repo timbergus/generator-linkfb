@@ -23,11 +23,11 @@ describe('linkfb generator', function () {
             '../../.travis.yml',
             '../../package.json',
             '../../README.md',
-            '../../app/templates/_README.js',
-            '../../app/templates/_bower.js',
+            '../../app/templates/_README.md',
+            '../../app/templates/_bower.json',
             '../../app/templates/_gruntfile.js',
             '../../app/templates/_linkfb.js',
-            '../../app/templates/_package.js'
+            '../../app/templates/_package.json'
         ];
 
         helpers.mockPrompt(this.app, {
