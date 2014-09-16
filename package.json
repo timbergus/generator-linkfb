@@ -29,8 +29,8 @@
     "mongoose"
   ],
   "dependencies": {
-    "yeoman-generator": "*",
-    "chalk": "*"
+    "yeoman-generator": "0.17.6",
+    "chalk": "0.5.1"
   },
   "devDependencies": {
     "mocha": "*"
