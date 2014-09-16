@@ -10,7 +10,7 @@ describe('linkfb generator', function () {
                 return done(err);
             }
 
-            this.app = helpers.createGenerator('back:app', [
+            this.app = helpers.createGenerator('linkfb:app', [
                 '../../app'
             ]);
             done();
