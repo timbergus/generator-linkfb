@@ -75,7 +75,13 @@
 
             switch (service) {
                 case 'GET':
-                    return $http.get(RESTConfig.ip_back + RESTConfig.users + (id ? ('/' + id) : ''));
+                    if (!contents) {
+                        return $http.get(RESTConfig.ip_back + RESTConfig.users + (id ? ('/' + id) : ''));
+                    } else {
+                        if (contents.type === 'name') {
+                            return $http.get(RESTConfig.ip_back + RESTConfig.users + '?name=' + id);
+                        }
+                    }
                 case 'POST':
                     return $http.post(RESTConfig.ip_back + RESTConfig.users, contents);
                 case 'PUT':
