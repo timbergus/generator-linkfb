@@ -95,7 +95,7 @@
         };
 
         return dataFactory;
-    }]);
+    }])
 
     .service('RESTService', ['$log', 'RESTFactory', function ($log, RESTFactory) {
         return {
@@ -111,7 +111,7 @@
                 return RESTFactory.service(type, service, id, contents);
             }
         };
-    }]);
+    }])
 
     .service('SerializeService', ['$log', function ($log) {
         return {
