@@ -7,12 +7,6 @@ var util = require('util'),
     LinkFBGenerator = yeoman.generators.Base.extend({
         init: function () {
             this.pkg = require('../package.json');
-
-            this.on('end', function () {
-                if (!this.options['skip-install']) {
-                    this.npmInstall();
-                }
-            });
         },
 
         askFor: function () {
@@ -55,11 +49,9 @@ var util = require('util'),
 
             // We are going to move every file into the root folder
 
-            this.template('_README.md'    , 'README.md');
             this.template('_bower.json'   , 'bower.json');
-            this.template('_gruntfile.js' , 'gruntfile.js');
             this.template('_linkfb.js'    , 'linkfb.js');
-            this.template('_package.json' , 'package.json');
+            this.template('_README.md'    , 'README.md');
 
             // For the moment we are not going to make tests
         }
